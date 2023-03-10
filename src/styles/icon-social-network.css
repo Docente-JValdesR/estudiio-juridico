@@ -1,0 +1,38 @@
+.icono-texto {
+  display: none !important;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.icono-texto-visible {
+  display: inline-block !important;
+  opacity: 1;
+}
+
+.icono-container {
+  max-width: 8rem;
+  transition: max-width 0.6s ease-in-out;
+  border-radius: 50px;
+  height: 60px;
+}
+
+.icono-container:hover {
+  max-width: 20rem;
+}
+
+.div-icon {
+  
+  text-align: -webkit-right;
+  text-align: -moz-right;
+}
+
+@media (max-width: 768px) {
+  .div-icon {
+    text-align: -webkit-center;
+    text-align: -moz-center;
+  }
+
+  .icono-container {
+    height: 40px;
+  }
+}

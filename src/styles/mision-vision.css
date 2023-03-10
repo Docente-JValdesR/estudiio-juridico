@@ -1,0 +1,45 @@
+/*Section-1*/
+.section1 {
+    height: 50vh;
+    background: url("../assets/section-1.jpg") no-repeat center fixed;
+  }
+  .content-1 {
+    position: absolute;
+    color: #fff;
+    height: 50vh;
+  }
+  .shadow-1 {
+    background-color: rgba(39, 39, 39, 0.9);
+    transform: skew(-20deg);
+    height: 100vh;
+    overflow: hidden;
+  }
+  /*Section-2*/
+  .section2 {
+    height: 50vh;
+    background: url("../assets/section-2.jpg") no-repeat center fixed;
+  }
+  .content-2 {
+    position: absolute;
+    color: #fff;
+    height: 50vh;
+  }
+  .shadow-2 {
+    background-color: rgba(39, 39, 39, 0.9);
+    transform: skew(20deg);
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .content-1,
+  .content-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .row > * {
+    padding-left: 0;
+    padding-right: 0;
+    overflow-x: hidden;
+  }
+  
